@@ -1,3 +1,6 @@
+import React from 'react';
+
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import { Meta } from '../layout/Meta';
@@ -9,176 +12,84 @@ const Index = () => {
   return (
     <Main
       meta={
-        <Meta
-          title="Next.js Boilerplate Presentation"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
-        />
+        <Meta title="Accueil" description="page d'accueil du Dr. Ducanda" />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      <div className="md:grid md:gap-4 grid-cols-1 grid-rows-3 md:grid-rows-1 md:grid-cols-5">
+        <div>
+          <figure>
+            <img
+              src={`${router.basePath}/assets/images/couverture.jpg`}
+              alt="Les tout-petits face aux écrans"
+            />
+            <figcaption className="text-center">
+              <div className="">Paru le 25 août 2021</div>
+              <div className="text-sm">
+                En libraire ou à commander{' '}
+                <a href="https://www.editionsdurocher.fr/livre/fiche/les-tout-petits-face-aux-ecrans-9782268105208">
+                  en ligne
+                </a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div className="w-full col-span-1 md:col-span-3">
+          <h1 className="font-bold text-2xl">
+            Alerte sur une Épidémie Silencieuse
+          </h1>
+          <p>
+            Les chiffres de la{' '}
+            <abbr title="Direction Générale de l’Enseignement Scolaire">
+              DGESCO
+            </abbr>
+            , qui dépend du ministère de l’Education nationale, montrent une
+            augmentation importante des enfants en situation de handicap entre
+            2010 et 2018 pour les 2-11 ans : +24% des troubles intellectuels et
+            cognitifs, +54% des troubles du psychisme et +94% d’augmentation des
+            troubles du langage. les troubles auditifs, visuels, viscéraux et
+            moteurs demeurent stables.
+          </p>
+          <p>
+            Les professionnels de l’enfance évaluent à 22% en moyenne le
+            pourcentage d&apos;enfant en difficulté. Ce nombre passe à 38%
+            depuis la crise de la covid. Les psychologues scolaires et moi même
+            relions 95% de ces troubles à la surexposition aux écrans.
+          </p>
+          <p>
+            Les écrans procurent du plaisir sans effort et sont très addictifs,
+            ce qui explique que les parents, non préparés à élever leurs enfants
+            dans un monde numérique, sont désemparés et demandeurs de conseils.
+          </p>
+          <p>
+            Après ma{' '}
+            <a
+              href="https://www.youtube.com/watch?v=9-eIdSE57Jw"
+              title="les écrans : un danger pour les enfants de 0 à 4 ans"
+            >
+              vidéo d’alerte en 2017
+            </a>
+            , je vous propose un livre riche de conseils et porteur d‘espoir :
+            les troubles liés aux écrans sont réversibles en grande partie quand
+            ils sont détectés et traités à temps.
+          </p>
+          <p>
+            Un livre qui parle aussi des plus grands, de 6 à 17 ans, de plus en
+            plus accros aux écrans de toute sorte.
+          </p>
+          <p>Un livre d’utilité publique à diffuser sans réserve !</p>
+
+          <Link href="/contact/" passHref>
+            <button className="w-full sm:w-auto flex-none bg-blue-500 hover:bg-blue-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-900 focus:outline-none transition-colors duration-200">
+              Prendre contact
+            </button>
+          </Link>
+        </div>
         <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
-          alt="Nextjs starter banner"
+          className="rounded hidden md:block"
+          src={`${router.basePath}/assets/images/anne-lise_ducanda.jpg`}
+          alt="Photo de Anne-Lise Ducanda"
         />
-      </a>
-      <h1 className="font-bold text-2xl">
-        Boilerplate code for your Nextjs project with Tailwind CSS
-      </h1>
-      <p>
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{' '}
-        Next.js Boilerplate is a starter code for your Next js project by
-        putting developer experience first .{' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>{' '}
-        Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
-      </p>
-      <h2 className="font-semibold text-lg">Next js Boilerplate Features</h2>
-      <p>Developer experience first:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="fire">
-            🔥
-          </span>{' '}
-          <a href="https://nextjs.org" rel="nofollow">
-            Next.js
-          </a>{' '}
-          for Static Site Generator
-        </li>
-        <li>
-          <span role="img" aria-label="art">
-            🎨
-          </span>{' '}
-          Integrate with{' '}
-          <a href="https://tailwindcss.com" rel="nofollow">
-            Tailwind CSS
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="nail_care">
-            💅
-          </span>{' '}
-          PostCSS for processing Tailwind CSS
-        </li>
-        <li>
-          <span role="img" aria-label="tada">
-            🎉
-          </span>{' '}
-          Type checking Typescript
-        </li>
-        <li>
-          <span role="img" aria-label="pencil2">
-            ✏️
-          </span>{' '}
-          Linter with{' '}
-          <a href="https://eslint.org" rel="nofollow">
-            ESLint
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="hammer_and_wrench">
-            🛠
-          </span>{' '}
-          Code Formatter with{' '}
-          <a href="https://prettier.io" rel="nofollow">
-            Prettier
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="fox_face">
-            🦊
-          </span>{' '}
-          Husky for Git Hooks
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🚫
-          </span>{' '}
-          Lint-staged for running linters on Git staged files
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🗂
-          </span>{' '}
-          VSCode configuration: Debug, Settings, Tasks and extension for
-          PostCSS, ESLint, Prettier, TypeScript
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            🤖
-          </span>{' '}
-          SEO metadata, JSON-LD and Open Graph tags with Next SEO
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            ⚙️
-          </span>{' '}
-          <a
-            href="https://www.npmjs.com/package/@next/bundle-analyzer"
-            rel="nofollow"
-          >
-            Bundler Analyzer
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="rainbow">
-            🌈
-          </span>{' '}
-          Include a FREE minimalist theme
-        </li>
-        <li>
-          <span role="img" aria-label="hundred">
-            💯
-          </span>{' '}
-          Maximize lighthouse score
-        </li>
-      </ul>
-      <p>Built-in feature from Next.js:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="coffee">
-            ☕
-          </span>{' '}
-          Minify HTML &amp; CSS
-        </li>
-        <li>
-          <span role="img" aria-label="dash">
-            💨
-          </span>{' '}
-          Live reload
-        </li>
-        <li>
-          <span role="img" aria-label="white_check_mark">
-            ✅
-          </span>{' '}
-          Cache busting
-        </li>
-      </ul>
-      <h2 className="font-semibold text-lg">Our Stater code Philosophy</h2>
-      <ul>
-        <li>Minimal code</li>
-        <li>SEO-friendly</li>
-        <li>
-          <span role="img" aria-label="rocket">
-            🚀
-          </span>{' '}
-          Production-ready
-        </li>
-      </ul>
-      <p>
-        Check our GitHub project for more information about{' '}
-        <a href="https://github.com/ixartz/Next-js-Boilerplate">
-          Nextjs Boilerplate
-        </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
-      </p>
+      </div>
     </Main>
   );
 };
