@@ -16,21 +16,21 @@ const Header = () => {
       <section>
         <ul className="flex flex-wrap text-xl">
           <li className="mr-6">
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <a className="text-gray-700 border-none hover:text-gray-900">
                 Accueil
               </a>
             </Link>
           </li>
           <li className="mr-6">
-            <Link href="/about/">
+            <Link legacyBehavior href="/about/">
               <a className="text-gray-700 border-none hover:text-gray-900">
                 À propos
               </a>
             </Link>
           </li>
           <li className="mr-6">
-            <Link href="/contact/">
+            <Link legacyBehavior href="/contact/">
               <a className="text-gray-700 border-none hover:text-gray-900">
                 Contact
               </a>
