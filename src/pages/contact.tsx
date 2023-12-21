@@ -1,5 +1,5 @@
-import { Meta } from '../layout/Meta';
-import { Main } from '../templates/Main';
+import { Meta } from "../layout/Meta";
+import { Main } from "../templates/Main";
 
 const Contact = () => {
   return (
@@ -43,7 +43,7 @@ const Contact = () => {
               />
             </label>
           </p>
-           <p>
+          <p>
             <label htmlFor="name" className="block">
               <span className="text-gray-700">Quel est votre pays ?</span>
               <input
@@ -55,9 +55,11 @@ const Contact = () => {
               />
             </label>
           </p>
-           <p>
+          <p>
             <label htmlFor="name" className="block">
-              <span className="text-gray-700">Quel est votre ville et code postal ?</span>
+              <span className="text-gray-700">
+                Quelle est votre ville et code postal ?
+              </span>
               <input
                 id="ville"
                 name="ville"
