@@ -16,6 +16,7 @@ const Contact = () => {
                 className="form-input mt-1 block w-full border-blue-500 border-b-2"
                 placeholder="votre nom"
                 aria-label="nom"
+                required
               />
             </label>
           </p>
@@ -28,6 +29,7 @@ const Contact = () => {
                 className="form-input mt-1 block w-full border-blue-500 border-b-2"
                 placeholder="votre@courriel.fr"
                 aria-label="courriel"
+                required
               />
             </label>
           </p>
@@ -40,6 +42,7 @@ const Contact = () => {
                 className="mt-1 block w-full border-blue-500 border-b-2"
                 placeholder="votre demande"
                 aria-label="message"
+                required
               />
             </label>
           </p>
@@ -52,6 +55,7 @@ const Contact = () => {
                 className="form-input mt-1 block w-full border-blue-500 border-b-2"
                 placeholder="France, Belgique, Ukraine, Palestine, Tibet, etc."
                 aria-label="pays"
+                required
               />
             </label>
           </p>
@@ -66,6 +70,7 @@ const Contact = () => {
                 className="form-input mt-1 block w-full border-blue-500 border-b-2"
                 placeholder="Nantes, Loire Atlantique"
                 aria-label="ville ou département"
+                required
               />
             </label>
           </p>
