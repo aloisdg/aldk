@@ -50,7 +50,7 @@ const Contact = () => {
                 id="pays"
                 name="pays"
                 className="form-input mt-1 block w-full border-blue-500 border-b-2"
-                placeholder="France, Belgique, Palestine, Tibet, etc."
+                placeholder="France, Belgique, Ukraine, Palestine, Tibet, etc."
                 aria-label="pays"
               />
             </label>
@@ -58,14 +58,14 @@ const Contact = () => {
           <p>
             <label htmlFor="name" className="block">
               <span className="text-gray-700">
-                Quelle est votre ville et code postal ?
+                Quel est votre ville ou votre département ?
               </span>
               <input
                 id="ville"
                 name="ville"
                 className="form-input mt-1 block w-full border-blue-500 border-b-2"
-                placeholder="Nantes 44000"
-                aria-label="ville"
+                placeholder="Nantes, Loire Atlantique"
+                aria-label="ville ou département"
               />
             </label>
           </p>
