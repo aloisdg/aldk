@@ -8,7 +8,7 @@ const Contact = () => {
           <form name="contact" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="form-name" value="contact" />
         
-            <input type="hidden" name="access_key" value="b30e6164-4c19-44c6-bcf4-b6c06ef12137">
+            <input type="hidden" name="access_key" value="b30e6164-4c19-44c6-bcf4-b6c06ef12137" />
 
             <p>
               <label htmlFor="name" className="block">
@@ -28,7 +28,7 @@ const Contact = () => {
               <label htmlFor="message" className="block">
                 <span className="text-gray-700">Quel est votre message ?</span>
                 <textarea id="message" name="message" className="mt-1 block w-full border-blue-500 border-b-2"
-                  placeholder="votre demande" aria-label="message" required></textarea>
+                  placeholder="votre demande" aria-label="message" required/>
               </label>
             </p>
             <p>
@@ -49,7 +49,7 @@ const Contact = () => {
             </p>
         
             <!-- Honeypot Spam Protection -->
-            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
         
         
             <button
