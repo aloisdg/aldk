@@ -1,5 +1,5 @@
-import { Meta } from "../layout/Meta";
-import { Main } from "../templates/Main";
+import { Meta } from '../layout/Meta';
+import { Main } from '../templates/Main';
 
 const Contact = () => {
   return (
