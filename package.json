@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
-    "build-prod": "run-s clean build",
+    "build-prod": "run-s lint clean build",
     "clean": "rimraf .next out",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
