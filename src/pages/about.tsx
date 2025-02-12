@@ -19,8 +19,8 @@ const About = () => {
     >
       <div className="sm:max-w-screen-md sm:mx-auto sm:text-justify">
         <p>
-          Je me nomme Anne&#8209;Lise&nbsp;Ducanda. Je suis médecin généraliste,
-          diplômée en Santé et Développement de l’enfant, possédant une
+          Anne&#8209;Lise&nbsp;Ducanda, médecin généraliste,
+          diplômée en Santé et Développement de l’enfant, je possède une
           expertise sur la problématique des écrans et des enfants.
         </p>
         <p>
