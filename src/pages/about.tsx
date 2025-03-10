@@ -443,105 +443,100 @@ const About = () => {
         </p>
 
         <h1 className="font-bold text-2xl">Références</h1>
-        <p>(1) <a href="https://www.youtube.com/watch?v=9-eIdSE57Jw" title="les écrans : un danger pour les enfants de 0 à 4 ans / Screens: danger for the 0 to 4 year olds">https://www.youtube.com/watch?v=9-eIdSE57Jw</a></p>
-        <p>(2) <a>https://www.surexpositionecrans.fr</a></p>
-        <p>(3) <a>https://screenpeace.org/</a></p>
+        <p>(1) <a href="https://www.youtube.com/watch?v=9-eIdSE57Jw" title="les écrans : un danger pour les enfants de 0 à 4 ans / Screens: danger for the 0 to 4 year olds">https://www.youtube.com/watch?v=9-eIdSE57Jw</a>
+        </p>
+        <p>(2) <a href="https://www.surexpositionecrans.fr" title="CoSE - Collectif Surexposition Ecrans">https://www.surexpositionecrans.fr</a>
+        </p>
+        <p>(3) <a href="https://screenpeace.org/" title="Screenpeace">https://screenpeace.org/</a>
+        </p>
         <p>
           (4) A.L DUCANDA. « Les tout-petits face aux écrans - Éditions du
-          Rocher », sur editionsdurocher.fr
-          <a>https://www.editionsdurocher.fr/product/123461/les-tout-petits-face-aux-ecrans/</a>
+          Rocher », <a href="https://www.editionsdurocher.fr/product/123461/les-tout-petits-face-aux-ecrans/" title="Livre du Dr Ducanda">sur editionsdurocher.fr</a>
         </p>
         <p>
           (5) Fondation pour l'Enfance, « L’impact des usages numériques sur le
           développement des jeunes enfants : notre 3e baromètre est sorti ! »
-          <a>https://www.fondation-enfance.org/2025/01/29/enfance-et-numerique-3e-barometre-croise-parents-enseignants/</a>
+          <a href="https://www.fondation-enfance.org/2025/01/29/enfance-et-numerique-3e-barometre-croise-parents-enseignants/" title="3ème baromètre">Lien vers le 3ème baromètre</a>
         </p>
         <p>
           (6) Rapport de la commission écrans, « Remise du rapport de la
           commission d'experts sur l'impact de l'exposition des jeunes aux
-          écrans. », sur elysee.fr
-          <a>https://www.elysee.fr/emmanuel-macron/2024/04/30/remise-du-rapport-de-la-commission-dexperts-sur-limpact-de-lexposition-des-jeunes-aux-ecrans</a>
+          écrans. », <a href="https://www.elysee.fr/emmanuel-macron/2024/04/30/remise-du-rapport-de-la-commission-dexperts-sur-limpact-de-lexposition-des-jeunes-aux-ecrans" title="rapport">sur elysee.fr.</a>
         </p>
         <p>
           (7) « La surexposition des jeunes enfants aux écrans est un enjeu
-          majeur de santé publique » », Le Monde, 31 mai 2017 (lire en ligne)
-          <a>https://www.lemonde.fr/sciences/article/2017/05/31/la-surexposition-des-jeunes-enfants-aux-ecrans-est-un-enjeu-majeur-de-sante-publique_5136297_1650684.html</a>
+          majeur de santé publique » », Le Monde, 31 mai 2017 <a href="https://www.lemonde.fr/sciences/article/2017/05/31/la-surexposition-des-jeunes-enfants-aux-ecrans-est-un-enjeu-majeur-de-sante-publique_5136297_1650684.html" title="La surexposition des jeunes enfants aux écrans est un enjeu majeur de santé publique">(lire en ligne)</a> 
         </p>
         <p>
           (8) Daniel Marcelli, Marie-Claude Bossière et Anne-Lise Ducanda, «
           Plaidoyer pour un nouveau syndrome « Exposition précoce et excessive
           aux écrans » (epee) », Enfances & Psy, vol. 79, no 3, 6 décembre
-          2018, p. 142–160 (ISSN 1286-5559, DOI 10.3917/ep.079.0142, lire en
-          ligne)
-          <a>https://shs.cairn.info/revue-enfances-et-psy-2018-3-page-142?lang=fr</a>
+          2018, p. 142–160 (ISSN 1286-5559, DOI 10.3917/ep.079.0142, <a href="https://shs.cairn.info/revue-enfances-et-psy-2018-3-page-142?lang=fr" title="Exposition précoce et excessive aux écrans">(lire en ligne)</a>
         </p>
         <p>
           (9) Envoyé spécial. L'addiction aux écrans : "héroïne numérique" - 18
           janvier 2018 (France 2), Envoyé Spécial (22 janvier 2018, 45:23
-          minutes) <a>https://www.youtube.com/watch?v=DyK4vxbAmwQ</a>
+          minutes) <a href="https://www.youtube.com/watch?v=DyK4vxbAmwQ" title="Envoyé spécial. L'addiction aux écrans">https://www.youtube.com/watch?v=DyK4vxbAmwQ</a>
         </p>
         <p>
           (10) Enfance : les liens en danger, Anne-Lise Ducanda (27 janvier
           2020, 617 minutes)
-          <a>https://www.ted.com/talks/anne_lise_ducanda_enfance_les_liens_en_danger</a>
+          <a href="https://www.ted.com/talks/anne_lise_ducanda_enfance_les_liens_en_danger" title="Enfance : les liens en danger">https://www.ted.com/talks/anne_lise_ducanda_enfance_les_liens_en_danger</a>
         </p>
         <p>
           (11) Daniel Marcelli, Marie-Claude Bossière et Anne-Lise Ducanda, «
           L’exposition précoce et excessive aux écrans (EPEE) : un nouveau
           syndrome », Devenir, vol. 32, no 2, 24 juillet 2020, p. 119–137 (ISSN
-          1015-8154, DOI 10.3917/dev.202.0119, lire en ligne)
-          <a>https://shs.cairn.info/revue-devenir-2020-2-page-119?lang=fr</a>
+          1015-8154, DOI 10.3917/dev.202.0119), <a href="https://shs.cairn.info/revue-devenir-2020-2-page-119?lang=fr" title="L'exposition récoce et excessive aux écrans (EPEE) : un nouveau syndrome">lire en ligne</a>)
         </p>
         <p>
           (12) ZI_SanteDesEnfants_Master_VF_H264_HD_Rec709G24_25fps_20_V1, Flair
-          Production (25 septembre 2023, PT01H27M51S minutes)
-          <a>https://vimeo.com/867838431/d3a88f4e7a?share=copy</a>
+          Production (25 septembre 2023, PT01H27M51S minutes) <a href="https://vimeo.com/867838431/d3a88f4e7a?share=copy" title=Zone interdite">voir en ligne</a>
         </p>
         <p>
           (13) A.L DUCANDA, « Les tout-petits face aux écrans - Éditions Litos
-          », sur editionslitos.fr
-          <a>https://editionslitos.fr/product/128864/les-tout-petits-face-aux-ecrans/</a>
+          », <a href="https://editionslitos.fr/product/128864/les-tout-petits-face-aux-ecrans/" title="Les tout-petits face aux écrans">sur editionslitos.fr</a>
         </p>
         <p>
-          (14) <a>https://www.youtube.com/watch?v=LG8Dh8_dLHI</a>, 77envideo (7 juin
+          (14) <a href="https://www.youtube.com/watch?v=LG8Dh8_dLHI" title="Trop d'écrans, nos vies en suspens (0-6 ans)">77 en vidéo</a>, (7 juin
           2024, 32:54 minutes)
         </p>
         <p>
-          (15) <a>https://www.youtube.com/watch?v=pzoVA9GWURA</a>, 77envideo (7 juin
+          (15) <a href="https://www.youtube.com/watch?v=pzoVA9GWURA" title="Trop d'écrans, nos vies en suspens (6-18 ans)">77 en vidéo</a>, (7 juin
           2024, 36:34 minutes)
         </p>
         <p>
           (16) « DU Parcours des 1000 premiers jours : accompagner la famille -
           UFR3S », sur ufr3s.univ-lille.fr
-          <a>https://ufr3s.univ-lille.fr/formation-continue/medecine/du-parcours-1000-premiers-jours</a>
+          <a href="https://ufr3s.univ-lille.fr/formation-continue/medecine/du-parcours-1000-premiers-jours" title="DU Parcours des 1000 premiers jours">Programme du DU</a>
         </p>
         <p>
           (17) « DU - accompagnement de la parentalité. La qualité de la
           relation au cœur du développement de l’enfant », sur Formation
           Continue Sorbonne Université
-          <a>https://fc.sorbonne-universite.fr/nos-offres/du-accompagnement-de-la-parentalite-la-qualite-de-la-relation-au-coeur-du-developpement-de-lenfant/</a>
+          <a href="https://fc.sorbonne-universite.fr/nos-offres/du-accompagnement-de-la-parentalite-la-qualite-de-la-relation-au-coeur-du-developpement-de-lenfant/" title="DU - accompagnement de la parentalité">Programme du DU</a>
         </p>
         <p>
           (18)
-          <a>https://understandingvirtualautism.substack.com/p/screen-time-and-early-child-development</a>
+          <a href="https://understandingvirtualautism.substack.com/p/screen-time-and-early-child-development" title="sommet mondial sur les écrans et le développement du jeune enfant">Programme du sommet mondial</a>
           Understanding Virtual Autism, « Screen Time & Early Child Development
           World Summit 2025 », sur Understanding Virtual Autism, 31 janvier 2025
         </p>
         <p>
           (19) « Enfants face aux écrans, ne cédons pas à la démagogie », Le
-          Monde, 14 février 2018 (lire en ligne)
-          <a>https://www.lemonde.fr/idees/article/2018/02/14/enfants-face-aux-ecrans-ne-cedons-pas-a-la-demagogie_5256479_3232.html</a>
+          Monde, 14 février 2018 <a href="https://www.lemonde.fr/idees/article/2018/02/14/enfants-face-aux-ecrans-ne-cedons-pas-a-la-demagogie_5256479_3232.html" title="Enfants face aux écrans, ne cédons pas à la démagogie">lire en ligne</a>
         </p>
         <p>
           (20) CoSE, « Les conférences des membres de CoSE »
-          <a>https://surexpositionecrans.fr/les-dernieres-actions-de-cose/</a>
+          <a href="https://surexpositionecrans.fr/les-dernieres-actions-de-cose/" title="Les conférences des membres de CoSE">https://surexpositionecrans.fr/les-dernieres-actions-de-cose/</a>
         </p>
         <p>
           (21) « Collectif Attention – surexposition aux écrans : la société
           civile s'organise », 21 décembre 2023
-          <a>https://www.collectifattention.com/</a>
+          <a href="https://www.collectifattention.com/" title="Collectif Attention">https://www.collectifattention.com/</a>
         </p>
-        <p>(22) <a>https://unesdoc.unesco.org/ark:/48223/pf0000385723</a></p>
+        <p>(22) <a href="https://unesdoc.unesco.org/ark:/48223/pf0000385723" title="Global education monitoring report, 2023: technology in education: a tool on whose terms?">Rapport de l'UNESCO</a>
+        </p>
 
         <Link href="/contact/" passHref>
           <button className="w-full sm:w-auto flex-none bg-blue-500 hover:bg-blue-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-900 focus:outline-none transition-colors duration-200">
