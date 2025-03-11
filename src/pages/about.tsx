@@ -491,7 +491,7 @@ const About = () => {
         </p>
         <p>
           (12) ZI_SanteDesEnfants_Master_VF_H264_HD_Rec709G24_25fps_20_V1, Flair
-          Production (25 septembre 2023, PT01H27M51S minutes) <a href="https://vimeo.com/867838431/d3a88f4e7a?share=copy" title=Zone interdite">voir en ligne</a>
+          Production (25 septembre 2023, PT01H27M51S minutes) <a href="https://vimeo.com/867838431/d3a88f4e7a?share=copy" title="Zone interdite">voir en ligne</a>
         </p>
         <p>
           (13) A.L DUCANDA, « Les tout-petits face aux écrans - Éditions Litos
