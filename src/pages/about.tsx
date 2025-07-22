@@ -15,7 +15,7 @@ const About = () => {
         />
       }
     >
-      <div className="sm:max-w-screen-md sm:mx-auto sm:text-justify">
+      <div className="sm:max-w-screen-md sm:mx-auto">
         <p>
           Anne&#8209;Lise&nbsp;Ducanda est médecin, lanceuse d’alerte concernant
           les dangers des écrans sur le développement de l’enfant. Lorsqu’elle
