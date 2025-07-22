@@ -14,17 +14,8 @@ const Video = () => {
       }
     >
       <div className="sm:max-w-screen-md sm:mx-auto">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/9-eIdSE57Jw?si=QO5JoCKnKpeIf_7z"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-        
+
+        <p>Enfance : les liens en danger</p>
         <iframe
           width="560"
           height="315"
@@ -35,7 +26,17 @@ const Video = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        
+        <p>Les écrans : un danger pour les enfants de 0 à 4 ans</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/9-eIdSE57Jw?si=QO5JoCKnKpeIf_7z"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
         Plus de vidéos sur ma chaîne{" "}
         <a
           className="text-gray-700 border-none hover:text-gray-900"
