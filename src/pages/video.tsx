@@ -19,8 +19,8 @@ const Video = () => {
         <iframe
           width="560"
           height="315"
-          src="https://embed.ted.com/embed/anne_lise_ducanda_enfance_les_liens_en_danger"
-          title="TEDx video player"
+          src="https://www.youtube.com/embed/5wOkyPvEKhc"
+          title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
