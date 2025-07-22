@@ -19,10 +19,10 @@ const Video = () => {
           height="315"
           src="https://www.youtube.com/embed/9-eIdSE57Jw?si=QO5JoCKnKpeIf_7z"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullscreen
         ></iframe>
         Plus de vidéos sur ma chaîne{" "}
         <a
