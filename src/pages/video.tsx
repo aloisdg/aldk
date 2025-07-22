@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-import { Meta } from '../layout/Meta';
-import { Main } from '../templates/Main';
+import { Meta } from "../layout/Meta";
+import { Main } from "../templates/Main";
 
 const Video = () => {
   return (
@@ -16,7 +16,23 @@ const Video = () => {
       }
     >
       <div className="sm:max-w-screen-md sm:mx-auto">
-      video
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/9-eIdSE57Jw?si=QO5JoCKnKpeIf_7z"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        Plus de vidéos sur ma chaîne{" "}
+        <a
+          className="text-gray-700 border-none hover:text-gray-900"
+          href="https://www.youtube.com/channel/UC_2uXgo3IXovQYRWh-2-8XQ/featured"
+        >
+          YouTube
+        </a>
       </div>
     </Main>
   );
