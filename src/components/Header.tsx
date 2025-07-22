@@ -43,14 +43,6 @@ const Header = () => {
               </a>
             </Link>
           </li>
-          <li className="mr-6">
-            <a
-              className="text-gray-700 border-none hover:text-gray-900"
-              href="https://www.youtube.com/channel/UC_2uXgo3IXovQYRWh-2-8XQ/featured"
-            >
-              YouTube
-            </a>
-          </li>
         </ul>
       </section>
     </header>
