@@ -3,7 +3,7 @@ import React from "react";
 import { Meta } from "../layout/Meta";
 import { Main } from "../templates/Main";
 
-const Video = () => {
+const Media = () => {
   return (
     <Main
       meta={
@@ -118,4 +118,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default Media;
