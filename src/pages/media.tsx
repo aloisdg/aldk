@@ -113,6 +113,70 @@ const Media = () => {
         >
           YouTube
         </a>
+        
+        <h3 className="mt-8 font-semibold">Podcast</h3>
+
+
+        <p>REDIFF #82 - Les tout-petits face aux écrans - Docteure Anne Lise Ducanda</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=pZhhmOCZbjA"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+
+
+        <p>Dr Anne-Lise Ducanda - LES TOUT-PETITS FACE AUX ÉCRANS</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=jBKrpi7qbFE"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+
+        <p>Les écrans sont-ils si méchants ?</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=bZ7w-qdLv7c"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+        
+      <p>La surexposition aux écrans : l'épidémie silencieuse - Anne-Lise Ducanda - #191</p>
+      <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=Z1DHaxWyrU0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+        
+      <p>Un R D'Actu Anne-Lise Ducanda</p>
+      <iframe name="Ausha Podcast Player"
+        frameborder="0"
+        loading="lazy"
+        id="ausha-kYPX"
+        height="220"
+        style="border: none; width:100%; height:220px"
+        src="https://player.ausha.co/?color=%23d0021b&playerId=ausha-kYPX&podcastId=8wPRetlvwzlj&v=3">
+      </iframe>
+        <script src="https://player.ausha.co/ausha-player.js"></script>
+
       </div>
     </Main>
   );
