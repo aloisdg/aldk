@@ -8,8 +8,8 @@ const Course = () => {
     <Main
       meta={
         <Meta
-          title="formation"
-          description="Demande de formation"
+          title="Demande de formation"
+          description="Demande de formation ou de conférence"
         />
       }
     >
