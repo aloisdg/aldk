@@ -14,7 +14,7 @@ const Video = () => {
       }
     >
       <div className="sm:max-w-screen-md sm:mx-auto">
-        <h3>Reportage</h3>
+        <h3 className="mt-8 font-semibold">Reportage</h3>
         <p>Trop d’écrans, nos vies en suspens : âge 0-6 ans</p>
         <iframe
           width="560"
@@ -48,7 +48,7 @@ const Video = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <h3>Conférences</h3>
+        <h3 className="mt-8 font-semibold">Conférences</h3>
         <p>TEDx Enfance : les liens en danger</p>
         <iframe
           width="560"
@@ -82,7 +82,7 @@ const Video = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <h3>Interviews</h3>
+        <h3 className="mt-8 font-semibold">Interviews</h3>
         <p>Marie Portolano reçoit dans l'interview d'actualité Anne-Lise Ducanda, médecin en PMI, spécialiste de la surexposition aux écrans.</p>
         <iframe
           width="560"
@@ -105,7 +105,7 @@ const Video = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <h3>Divers</h3>
+        <h3 className="mt-8 font-semibold">Divers</h3>
         <p>Les écrans : un danger pour les enfants de 0 à 4 ans</p>
         <iframe
           width="560"
