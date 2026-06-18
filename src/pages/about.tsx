@@ -25,9 +25,9 @@ const About = () => {
           nette diminution des troubles. Elle alerte dans une vidéo sur YouTube
           en 2017 (1) en direction des familles, des professionnels et des
           pouvoirs publics. Dans la même année, elle co-fonde le{" "}
-          <abbr title="Collectif Surexposition Écrans">CoSE</abbr> (
+         Collectif Surexposition Écrans (abrégé CoSE) (
           <a
-            href="http://www.surexpositionecrans.org"
+            href="http://www.surexpositionecrans.fr"
             title="site du Collectif Surexposition Écrans"
           >
             www.surexpositionecrans.org
