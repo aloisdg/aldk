@@ -83,17 +83,6 @@ const Video = () => {
           allowFullScreen
         ></iframe>
         <h3 className="mt-8 font-semibold">Interviews</h3>
-        <p>Marie Portolano reçoit dans l'interview d'actualité Anne-Lise Ducanda, médecin en PMI, spécialiste de la surexposition aux écrans.</p>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/FrmFcKokj-s"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
         <p>Surexposition des tout-petits aux écrans : signes évocateurs et prise en charge</p>
         <iframe
           width="560"
