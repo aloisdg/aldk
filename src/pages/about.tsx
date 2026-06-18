@@ -10,7 +10,7 @@ const About = () => {
     <Main
       meta={
         <Meta
-          title="à propos"
+          title="mon parcours"
           description="En apprendre davantage sur mon engagement"
         />
       }
