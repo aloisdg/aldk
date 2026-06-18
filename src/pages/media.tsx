@@ -172,7 +172,7 @@ const Media = () => {
         loading="lazy"
         id="ausha-kYPX"
         height="220"
-        style="border: none; width:100%; height:220px"
+        style={{border: "none", width: "100%", height:"220px"}}
         src="https://player.ausha.co/?color=%23d0021b&playerId=ausha-kYPX&podcastId=8wPRetlvwzlj&v=3">
       </iframe>
         <script src="https://player.ausha.co/ausha-player.js"></script>
