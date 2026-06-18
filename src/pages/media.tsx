@@ -115,13 +115,12 @@ const Media = () => {
         </a>
         
         <h3 className="mt-8 font-semibold">Podcast</h3>
-
-
+        
         <p>REDIFF #82 - Les tout-petits face aux écrans - Docteure Anne Lise Ducanda</p>
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/watch?v=pZhhmOCZbjA"
+          src="https://www.youtube.com/embed/pZhhmOCZbjA"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -134,7 +133,7 @@ const Media = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/watch?v=jBKrpi7qbFE"
+          src="https://www.youtube.com/embed/jBKrpi7qbFE"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -146,7 +145,7 @@ const Media = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/watch?v=bZ7w-qdLv7c"
+          src="https://www.youtube.com/embed/bZ7w-qdLv7c"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -158,7 +157,7 @@ const Media = () => {
       <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/watch?v=Z1DHaxWyrU0"
+          src="https://www.youtube.com/embed/Z1DHaxWyrU0"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
