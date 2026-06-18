@@ -168,7 +168,7 @@ const Media = () => {
         
       <p>Un R D'Actu Anne-Lise Ducanda</p>
       <iframe name="Ausha Podcast Player"
-        frameborder="0"
+        frameBorder="0"
         loading="lazy"
         id="ausha-kYPX"
         height="220"
