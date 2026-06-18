@@ -25,7 +25,7 @@ const Header = () => {
           <li className="mr-6">
             <Link legacyBehavior href="/course/">
               <a className="text-gray-700 border-none hover:text-gray-900">
-                Demande de formation
+                Demande de formations
               </a>
             </Link>
           </li>
