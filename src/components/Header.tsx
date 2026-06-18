@@ -32,7 +32,7 @@ const Header = () => {
           <li className="mr-6">
             <Link legacyBehavior href="/media/">
               <a className="text-gray-700 border-none hover:text-gray-900">
-                Vidéos
+                Media
               </a>
             </Link>
           </li>
