@@ -14,7 +14,7 @@ const Video = () => {
       }
     >
       <div className="sm:max-w-screen-md sm:mx-auto">
-        <h3>Reportages</h3>
+        <h3>Reportage</h3>
         <p>Trop d’écrans, nos vies en suspens : âge 0-6 ans</p>
         <iframe
           width="560"
