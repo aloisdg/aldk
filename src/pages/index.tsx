@@ -63,7 +63,7 @@ const Index = () => {
             </p>
             <p>
                 Vous souhaitez organiser une conférence, une formation ou prendre rendez-vous pour une consultation ? Je vous invite
-                à me laisser vos coordonnées et je vous recontacterai dans les plus brefs délais
+                à me laisser vos coordonnées et je vous recontacterai dans les plus brefs délais.
             </p>
 
           <Link href="/contact/" passHref>
