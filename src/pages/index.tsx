@@ -34,49 +34,37 @@ const Index = () => {
           </figure>
         </div>
         <div className="w-full col-span-1 md:col-span-3">
-          <h1 className="font-bold text-2xl">
-            Alerte sur une Épidémie Silencieuse
-          </h1>
-          <p>
-            Les chiffres de la{' '}
-            <abbr title="Direction Générale de l’Enseignement Scolaire">
-              DGESCO
-            </abbr>
-            , qui dépend du ministère de l’Education nationale, montrent une
-            augmentation importante des enfants en situation de handicap entre
-            2010 et 2018 pour les 2-11 ans : +24% des troubles intellectuels et
-            cognitifs, +54% des troubles du psychisme et +94% d’augmentation des
-            troubles du langage. les troubles auditifs, visuels, viscéraux et
-            moteurs demeurent stables.
-          </p>
-          <p>
-            Les professionnels de l’enfance évaluent à 22% en moyenne le
-            pourcentage d&apos;enfant en difficulté. Ce nombre passe à 38%
-            depuis la crise de la covid. Les psychologues scolaires et moi même
-            relions 95% de ces troubles à la surexposition aux écrans.
-          </p>
-          <p>
-            Les écrans procurent du plaisir sans effort et sont très addictifs,
-            ce qui explique que les parents, non préparés à élever leurs enfants
-            dans un monde numérique, sont désemparés et demandeurs de conseils.
-          </p>
-          <p>
-            Après ma{' '}
-            <a
-              href="https://www.youtube.com/watch?v=9-eIdSE57Jw"
-              title="les écrans : un danger pour les enfants de 0 à 4 ans"
-            >
-              vidéo d’alerte en 2017
-            </a>
-            , je vous propose un livre riche de conseils et porteur d‘espoir :
-            les troubles liés aux écrans sont réversibles en grande partie quand
-            ils sont détectés et traités à temps.
-          </p>
-          <p>
-            Un livre qui parle aussi des plus grands, de 6 à 17 ans, de plus en
-            plus accros aux écrans de toute sorte.
-          </p>
-          <p>Un livre d’utilité publique à diffuser sans réserve !</p>
+            <p>
+                Depuis plus de 20 ans, j'accompagne les enfants et leurs familles. Médecin de Protection Maternelle et Infantile
+                (PMI), diplômée en Santé et Développement de l'enfant, j'ai progressivement pris conscience de l'impact grandissant
+                de la surexposition aux écrans sur le développement de l'enfant. Aujourd'hui, je consacre entièrement mon activité à
+                cette problématique.
+            </p>
+            <p>
+                J’accompagne les parents d’enfants de 0 à 18 ans ainsi que les professionnels de l’enfance et de la santé confrontés
+                aux difficultés liées aux écrans. Mon objectif est de mieux faire comprendre ces troubles, d’aider à les prévenir et
+                de proposer des solutions concrètes, adaptées à chaque situation.
+            </p>
+            <p>
+                En 2017, j’ai lancé l’alerte avec une vidéo YouTube consacrée aux dangers des écrans pour les jeunes enfants.
+                Depuis, j’ai créé une consultation dédiée aux enfants surexposés aux écrans et je forme des professionnels en France
+                comme à l’étranger.
+            </p>
+            <p>
+                Les écrans occupent aujourd’hui une place centrale dans notre quotidien. Leur omniprésence et les mécanismes qui
+                captent notre attention rendent leur usage particulièrement difficile à maîtriser, pour les enfants comme pour les
+                adultes. C’est pourquoi j’aborde toujours cette question avec bienveillance, sans jugement ni culpabilisation.
+                J’apporte aux familles et aux professionnels des repères fondés sur les connaissances scientifiques, ainsi que des
+                conseils pratiques pour retrouver un équilibre.
+            </p>
+            <p>
+                J’anime également des conférences et des formations en France et à l’international afin de sensibiliser un large
+                public aux enjeux des écrans et au développement de l’enfant.
+            </p>
+            <p>
+                Vous souhaitez organiser une conférence, une formation ou prendre rendez-vous pour une consultation ? Je vous invite
+                à me laisser vos coordonnées et je vous recontacterai dans les plus brefs délais
+            </p>
 
           <Link href="/contact/" passHref>
             <button className="w-full sm:w-auto flex-none bg-blue-500 hover:bg-blue-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-900 focus:outline-none transition-colors duration-200">
