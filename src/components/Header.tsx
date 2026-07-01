@@ -37,6 +37,13 @@ const Header = () => {
             </Link>
           </li>
           <li className="mr-6">
+            <Link legacyBehavior href="/consultation/">
+              <a className="text-gray-700 border-none hover:text-gray-900">
+                Consultation
+              </a>
+            </Link>
+          </li>
+          <li className="mr-6">
             <Link legacyBehavior href="/contact/">
               <a className="text-gray-700 border-none hover:text-gray-900">
                 Contact
